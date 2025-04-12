@@ -17,21 +17,21 @@ function Card(props) {
             </p>
           </div>
         </div>
-        <p className="card-text">{props.cardData.shortDesctioption}</p>
+        <p className="card-text">{props.cardData.shortDescription}</p>
         <div className="link-area">
           <a
-            href={props.cardData.socialMediaLiks.gitHub}
+            href={props.cardData.socialMediaLinks.gitHub}
             target="_blank"
             className="btn btn-primary"
           >
-            <img src={require("./github.png")} />
+            <img src={require("./images/github.png")} />
           </a>
           <a
             target="_blank"
-            href={props.cardData.socialMediaLiks.linkedIn}
+            href={props.cardData.socialMediaLinks.linkedIn}
             className="btn btn-primary"
           >
-            <img src={require("./linkedin.png")} />
+            <img src={require("./images/linkedin.png")} />
           </a>
         </div>
       </div>
